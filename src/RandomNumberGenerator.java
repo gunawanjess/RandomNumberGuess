@@ -27,7 +27,7 @@ public class RandomNumberGenerator {
                     System.out.println("Congratulations! You guessed the correct number.");
                     correctGuess = true;
                 } else if (userGuess < min || userGuess > max) {
-                    System.out.println("Please guess a number within the valid range.");
+                    System.out.println("Please guess a number from " + min + " to " + max + ".");
                 } else if (userGuess < random_int) {
                     System.out.println("Too small! Try again:");
                 } else {
